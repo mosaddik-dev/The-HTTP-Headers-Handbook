@@ -29,7 +29,7 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 - [x] Forbidden and Restricted Headers (2026-07-07)
 - [x] Custom and X- Headers (2026-07-07)
 - [x] Case Sensitivity and Ordering (2026-07-07)
-- [ ] Header Size Limits
+- [x] Header Size Limits (2026-07-07)
 
 ## Part 03 — Request Headers
 
@@ -38,37 +38,37 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 - [x] Referer (2026-07-07)
 - [x] User-Agent (2026-07-07)
 - [x] Accept (2026-07-07)
-- [ ] Accept-Language
+- [x] Accept-Language (2026-07-07)
 - [x] Accept-Encoding (2026-07-07) — lives in Part 10
-- [ ] Accept-Charset
+- [x] Accept-Charset (2026-07-07)
 - [x] Authorization (2026-07-07) — lives in Part 09
 - [x] Cookie (2026-07-07) — lives in Part 08
 - [x] Content-Type (request) (2026-07-07)
 - [x] Content-Length (request) (2026-07-07) — lives in Part 04
 - [x] Connection (2026-07-07)
 - [x] Expect (2026-07-07)
-- [ ] TE
+- [x] TE (2026-07-07)
 - [x] Upgrade (2026-07-07)
 - [x] Sec-Fetch-Site / Mode / User / Dest (2026-07-07)
-- [ ] Sec-CH-UA (Client Hints)
-- [ ] DNT / Sec-GPC
-- [ ] Max-Forwards
+- [x] Sec-CH-UA (Client Hints) (2026-07-07)
+- [x] DNT / Sec-GPC (2026-07-07)
+- [x] Max-Forwards (2026-07-07)
 
 ## Part 04 — Response Headers
 
 - [x] Content-Type (response) (2026-07-07)
 - [x] Content-Length (response) (2026-07-07)
 - [x] Content-Disposition (2026-07-07)
-- [ ] Content-Language
-- [ ] Content-Location
+- [x] Content-Language (2026-07-07)
+- [x] Content-Location (2026-07-07)
 - [x] Location (2026-07-07)
 - [x] Server (2026-07-07)
 - [x] Date (2026-07-07)
-- [ ] Retry-After
-- [ ] Allow
-- [ ] Accept-Ranges
+- [x] Retry-After (2026-07-07)
+- [x] Allow (2026-07-07)
+- [x] Accept-Ranges (2026-07-07)
 - [x] Connection (response) (2026-07-07) — covered in Part 03 Connection
-- [ ] Keep-Alive
+- [x] Keep-Alive (2026-07-07)
 
 ## Part 05 — Security Headers
 
@@ -81,12 +81,12 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 - [x] Referrer-Policy (2026-07-07)
 - [x] Permissions-Policy (2026-07-07)
 - [x] Cross-Origin-Opener-Policy (2026-07-07)
-- [ ] Cross-Origin-Embedder-Policy
-- [ ] Cross-Origin-Resource-Policy
-- [ ] X-DNS-Prefetch-Control
-- [ ] X-Permitted-Cross-Domain-Policies
-- [ ] Reporting-Endpoints / Report-To
-- [ ] NEL (Network Error Logging)
+- [x] Cross-Origin-Embedder-Policy (2026-07-07)
+- [x] Cross-Origin-Resource-Policy (2026-07-07)
+- [x] X-DNS-Prefetch-Control (2026-07-07)
+- [x] X-Permitted-Cross-Domain-Policies (2026-07-07)
+- [x] Reporting-Endpoints / Report-To (2026-07-07)
+- [x] NEL (Network Error Logging) (2026-07-07)
 
 ## Part 06 — Caching Headers
 
@@ -94,10 +94,10 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 - [x] Expires (2026-07-07)
 - [x] ETag (2026-07-07)
 - [x] Last-Modified (2026-07-07)
-- [ ] Age
-- [ ] Vary
-- [ ] Pragma
-- [ ] Surrogate-Control / Surrogate-Key (CDN)
+- [x] Age (2026-07-07)
+- [x] Vary (2026-07-07)
+- [x] Pragma (2026-07-07)
+- [x] Surrogate-Control / Surrogate-Key (CDN) (2026-07-07)
 
 ## Part 07 — CORS
 
@@ -106,11 +106,11 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 - [x] Access-Control-Allow-Origin (2026-07-07)
 - [x] Access-Control-Allow-Methods (2026-07-07)
 - [x] Access-Control-Allow-Headers (2026-07-07)
-- [ ] Access-Control-Allow-Credentials
+- [x] Access-Control-Allow-Credentials (2026-07-07)
 - [x] Access-Control-Expose-Headers (2026-07-07)
 - [x] Access-Control-Max-Age (2026-07-07)
-- [ ] Access-Control-Request-Method
-- [ ] Access-Control-Request-Headers
+- [x] Access-Control-Request-Method (2026-07-07)
+- [x] Access-Control-Request-Headers (2026-07-07)
 
 ## Part 08 — Cookies
 
@@ -126,56 +126,56 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 - [x] Authorization (2026-07-07)
 - [x] WWW-Authenticate (2026-07-07)
 - [x] Proxy-Authorization (2026-07-07)
-- [ ] Proxy-Authenticate
+- [x] Proxy-Authenticate (2026-07-07)
 - [f] Bearer / JWT / OAuth flows — folded into Authentication-Overview / Authorization
 
 ## Part 10 — Compression
 
 - [x] Accept-Encoding (2026-07-07)
 - [x] Content-Encoding (2026-07-07)
-- [ ] Transfer-Encoding
-- [ ] Content-Length vs Transfer-Encoding
+- [x] Transfer-Encoding (2026-07-07)
+- [x] Content-Length vs Transfer-Encoding (2026-07-07)
 
 ## Part 11 — Content Negotiation
 
 - [x] Content Negotiation Overview (2026-07-07)
 - [x] Accept (2026-07-07) — cross-ref, lives in Part 03
-- [ ] Accept-Language
+- [x] Accept-Language (2026-07-07) — lives in Part 03
 - [x] Accept-Encoding (cross-ref) (2026-07-07) — lives in Part 10
-- [ ] Vary (cross-ref)
+- [x] Vary (cross-ref) (2026-07-07) — lives in Part 06
 
 ## Part 12 — Conditional Requests
 
 - [x] Conditional Requests Overview (2026-07-07)
 - [x] If-Match (2026-07-07)
-- [ ] If-None-Match
-- [ ] If-Modified-Since
-- [ ] If-Unmodified-Since
-- [ ] If-Range
+- [x] If-None-Match (2026-07-07)
+- [x] If-Modified-Since (2026-07-07)
+- [x] If-Unmodified-Since (2026-07-07)
+- [x] If-Range (2026-07-07)
 
 ## Part 13 — Range Requests
 
 - [x] Range Requests Overview (2026-07-07)
 - [x] Range (2026-07-07)
-- [ ] Content-Range
+- [x] Content-Range (2026-07-07)
 - [ ] Accept-Ranges (cross-ref)
 
 ## Part 14 — Proxies
 
 - [x] Proxies Overview (2026-07-07)
 - [x] Via (2026-07-07)
-- [ ] Forwarded
-- [ ] X-Forwarded-For
-- [ ] X-Forwarded-Proto
-- [ ] X-Forwarded-Host
-- [ ] X-Real-IP
+- [x] Forwarded (2026-07-07)
+- [x] X-Forwarded-For (2026-07-07)
+- [x] X-Forwarded-Proto (2026-07-07)
+- [x] X-Forwarded-Host (2026-07-07)
+- [x] X-Real-IP (2026-07-07)
 
 ## Part 15 — CDNs
 
 - [x] CDN Caching Overview (2026-07-07)
 - [x] Cache Keys and Vary (2026-07-07)
-- [ ] Cloudflare-specific headers
-- [ ] CDN debugging headers
+- [x] Cloudflare-specific headers (2026-07-07)
+- [x] CDN debugging headers (2026-07-07)
 
 ## Part 16 — Reverse Proxies
 
@@ -206,8 +206,8 @@ Legend: `[x]` complete · `[~]` in progress · `[ ]` not started · `[f]` covere
 ## Part 20 — Real-World Architectures
 
 - [x] Browser → CDN → Reverse Proxy → App → DB header flow (2026-07-07) — End-to-End-Header-Flow.md
-- [ ] Auth architecture end-to-end
-- [ ] Caching architecture end-to-end
+- [x] Auth architecture end-to-end (2026-07-07)
+- [x] Caching architecture end-to-end (2026-07-07)
 
 ## Part 21 — Best Practices
 
